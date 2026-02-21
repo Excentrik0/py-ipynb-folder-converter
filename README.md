@@ -1,14 +1,14 @@
-# 📓 Jupyter Notebook & Python Automation Tool
+# 📓 Notebook & Python Script Converter
 
-A specialized utility designed to bridge the gap between Data Science research and Software Engineering. This tool provides a seamless, recursive workflow for converting between Jupyter Notebooks (`.ipynb`) and Python scripts (`.py`).
+A useful tool to help you connect Data Science work with Software Engineering. This script provides an easy way to convert between Jupyter Notebooks (`.ipynb`) and Python scripts (`.py`) in all your folders.
 
 ## 🌟 Key Features
-- **Bidirectional Conversion**: Effortlessly switch between experimental notebooks and production-ready scripts.
-- **Recursive Directory Scanning**: Process entire project structures, including all subfolders, with a single command.
-- **Markdown Preservation**: Converts Notebook markdown cells into commented-out headers in Python files to maintain documentation.
-- **Smart Cleanup**: Optional automated deletion of source files to keep your workspace organized.
+- **Convert both ways**: Easily change between experimental notebooks and ready-to-use Python scripts.
+- **Scan all folders**: Process your whole project, including all subfolders, with one command.
+- **Keep your notes**: Changes notebook text cells into comments in the Python file so you don't lose your documentation.
+- **Easy cleanup**: An option to delete the original files automatically to keep your folders clean.
 
 ## ⚙️ Installation
-Ensure you have the `nbformat` library installed:
+Make sure you have the `nbformat` library installed:
 ```bash
 pip install nbformat
